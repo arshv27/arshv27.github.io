@@ -2,24 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Associate ML Scientist @ WadhwaniAI | CSE @ IIITD'21
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: arsh_photo.jpeg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I’m an Associate Machine Learning Scientist at Wadhwani AI, a non-profit building AI solutions for Social Impact. I have a keen interest in using Deep Learning for Computer Vision solutions that can deliver long-term social impact.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+At Wadhwani AI, I am the lead associate on medical imaging solutions on Radiology and Dermatology. My goal is to widening access and revolutionise healthcare through AI.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Previously, I completed my undergraduate studies in 2021 from Indraprastha Institute of Information Technology, Delhi. During this time, I worked on building the Scene Text Recognition module as a part of my B.Tech Project (Thesis) as a part of the project on building a Mobility Assistant for the Visually Impaired (MAVI) at the Indian Institute of Technology, Delhi.

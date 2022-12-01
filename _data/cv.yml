@@ -2,96 +2,83 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Arsh Verma 
     - name: Date of Birth
-      value: 14th March 1879
+      value: 29th December 1998
     - name: Languages
-      value: English, German
+      value: English, Hindi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.Tech. (Hons.), Computer Science & Engineering
+      institution: Indraprastha Institute of Information Technology, Delhi
+      year: 2017 - 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - "<b>Coursework</b>: Deep Learning, Advanced Machine Learning, Trustworthy AI Systems, Meta Learning, Probabilistic Graphical Models, Data Mining, Natural Language Processing, Data Structures and Algorithms, Operating Systems, Probability & Statis- tics, Linear Algebra."
+        - "<b>BTech Project</b>: Reading Signboards for the Visually Impaired (see Projects section below)"
+        - "<b>CGPA</b>: 9.04/10"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Associate Machine Learning Scientist
+      institution: Wadhwani Institute for Artificial Intelligence
+      year: Aug 2021 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - ML lead for two Healthcare projects.
+        - Led discussions and provided insights regarding the ML feasibility for establishing new use cases and expanding the current solutions with Ministry of Health and Family Welfare and the top medical institutions in India.
+        - Appointed as the direct reporting manager for 2 associates and 4 interns.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Awards and Achievements
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
+    - year: 2022
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - "GRE General Test- Quant: 170/170, Verbal: 161/170"
+    - year: 2021
       items: 
-        - Max Planck Medal
+        - "Dean's Award for Excellence in Academics: Awarded to top 5% students each year"
+    - year: 2020
+      items: 
+        - "Dean's Award for Excellence in Academics"
+    - year: 2018
+      items: 
+        - "Dean's Award for Excellence in Academics"
+        - "Dean's Award for Excellence in Sports: Awarded to one individual each year."
+    - year: 2016
+      items: 
+        - "SAT I- 1500/1600. SAT II- Math II: 800/800, Physics: 800/800"
 
-- title: Academic Interests
+- title: Research Interests & Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Research Interests
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Deep Learning for Computer Vision
+        - AI for Healthcare
+        - Machine Cognition
+    - title: Languages
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Python
+        - Java
+        - C++
+        - Javascript
+        - C
+    - title: Tools
+      items: 
+        - Pytorch
+        - Docker
+        - Torchserve
+        - MySQL
+        - Firebase
+        - React Native
+        - Streamlit
+      
