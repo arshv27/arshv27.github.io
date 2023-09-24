@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Associate ML Scientist @ WadhwaniAI | CSE @ IIITD'21
 
