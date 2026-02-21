@@ -11,31 +11,33 @@
 - title: Education
   type: time_table
   contents:
+    - title: M.S. in Machine Learning and Robotics
+      institution: Carnegie Mellon University
+      year: Aug 2024 – Apr 2026
+      description:
+        - "<b>Research</b>: Learning-based planning and decision-making for real-time robotic systems."
+        - "<b>Coursework</b>: Generative AI, DL Systems and Algorithms, Multi-Modal ML, Advanced Computer Vision, Reinforcement Learning."
+        - "<b>CGPA</b>: 4.25/4.00"
     - title: B.Tech. (Hons.), Computer Science & Engineering
       institution: Indraprastha Institute of Information Technology, Delhi
       year: 2017 - 2021
       description:
-        - "<b>Coursework</b>: Deep Learning, Advanced Machine Learning, Trustworthy AI Systems, Meta Learning, Probabilistic Graphical Models, Data Mining, Natural Language Processing, Data Structures and Algorithms, Operating Systems, Probability & Statis- tics, Linear Algebra."
-        - "<b>BTech Project</b>: Reading Signboards for the Visually Impaired (see Projects section below)"
+        - "<b>Coursework</b>: Deep Learning, Advanced Machine Learning, Trustworthy AI Systems, Meta Learning, Probabilistic Graphical Models, Data Mining, Natural Language Processing, Data Structures and Algorithms, Operating Systems, Probability & Statistics, Linear Algebra."
+        - "<b>BTech Project</b>: Reading Signboards for the Visually Impaired"
         - "<b>CGPA</b>: 9.04/10"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Associate Machine Learning Scientist
+    - title: Associate Machine Learning Scientist - 2
       institution: Wadhwani Institute for Artificial Intelligence
-      year: Aug 2021 - Present
+      year: Aug 2021 - Aug 2024
       description:
-        - ML lead for two Healthcare projects.
-        - Led discussions and provided insights regarding the ML feasibility for establishing new use cases and expanding the current solutions with Ministry of Health and Family Welfare and the top medical institutions in India.
-        - Appointed as the direct reporting manager for 2 associates and 4 interns.
-
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - "Deployed a production-grade deep learning system for detecting 17 chest X-ray abnormalities, improving mean AUROC to 90% and serving 2M+ patients annually on India's national digital diagnosis platform."
+        - "Built and deployed a CXR-based TB screening model for the National Health Mission, aiding diagnosis in over 3M presumptive TB cases per year; achieved 90% sensitivity with 80% specificity."
+        - "Enabled smartphone-based inference of CXR photos through 90% model compression via pruning and quantization."
+        - "Led deployment readiness in collaboration with radiologists and public health officials, aligning model behavior with clinical workflows."
+        - "Earned a fast-tracked promotion for end-to-end project ownership, technical leadership, and mentoring 7 junior engineers."
 
 - title: Awards and Achievements
   type: time_table
@@ -63,22 +65,18 @@
     - title: Research Interests
       items: 
         - Deep Learning for Computer Vision
+        - Language Modelling
+        - Reinforcement Learning
+        - Multi-modal Learning
         - AI for Healthcare
-        - Machine Cognition
-    - title: Languages
+    - title: Skills and Tools
       items:
         - Python
-        - Java
-        - C++
-        - Javascript
-        - C
-    - title: Tools
-      items: 
-        - Pytorch
+        - PyTorch
+        - Generative AI
+        - Large Language Models (LLMs)
+        - Distributed Training
+        - Parallelization
         - Docker
-        - Torchserve
-        - MySQL
-        - Firebase
-        - React Native
-        - Streamlit
-      
+        - TorchServe
+        - MongoDB
