@@ -2,22 +2,29 @@
 layout: about
 title: About
 permalink: /
-subtitle: M.S. in Machine Learning and Robotics @ CMU | Ex-Wadhwani AI
+subtitle: <a href="https://www.ri.cmu.edu/">Robotics Institute, Carnegie Mellon University</a>. Previously <a href="https://www.wadhwaniai.org/">Wadhwani AI</a>.
 
 profile:
   align: right
   image: arsh_photo.jpeg
   image_circular: false # crops the image to make it circular
 
-news: false  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
 ---
 
-I am an applied machine learning engineer and researcher focused on building AI systems that move from research prototypes to real-world impact. My work spans the full ML lifecycle — from data ingestion and engineering to model training, alignment, evaluation, and production deployment. I have strong technical depth across deep learning, reinforcement learning, LLMs, and agent-based systems, and I am comfortable operating across modeling, infrastructure, and product boundaries to deliver scalable, reliable AI solutions. I take end-to-end ownership of problems, move quickly from idea to execution, and thrive in fast-paced, high-ownership environments where engineering decisions directly shape impact.
+Hi! I am a machine learning engineer and researcher. I recently completed my MS in Robotics at Carnegie Mellon University's [Robotics Institute](https://www.ri.cmu.edu/), where I was advised by [Jeff Schneider](https://www.cs.cmu.edu/~schneide/) in the [Auton Lab](https://www.autonlab.org/).
 
-In 2024, I joined Carnegie Mellon University to pursue my M.S. in Robotics, where I am advised by Jeff Schneider. My research focuses on learning-based planning and Active Search for real-time robotic systems. Specifically, I work on training policies that enable robots to reason and act under uncertainty within strict latency constraints — bridging the gap between theoretical reinforcement learning and deployable robotic decision-making systems.
+My thesis, [_Explore and Exploit: Learning Policies for Efficient and Coordinated Active Search_](https://publications.ri.cmu.edu/storage/publications/2026/08/MSR_Thesis_ArshVerma_20260804151933.pdf), asks how a team of robots should search a large area when it is uncertain about what it will find and has little time to think. We distil expensive planners into graph neural network policies, train UAV and UGV teams to coordinate with multi-agent Q-learning, and run the resulting policies on real robots in the field. Part of this work appeared at [ICRA 2026](/publications/#verma2026efficient).
 
-Previously, I worked as an Associate Machine Learning Scientist at Wadhwani AI, where I built and deployed production-grade deep learning systems for large-scale healthcare applications. I led development across the end-to-end ML pipeline — from messy clinical data ingestion and curation to modeling, evaluation, and integration into national health platforms. One of the systems I helped build, a chest X-ray abnormality detection model, now serves over 2 million patients annually on India’s national digital diagnosis platform. I also developed a tuberculosis screening model supporting diagnosis across more than 3 million presumptive cases each year. This experience strengthened my ability to design AI systems that operate under real-world constraints — limited data quality, infrastructure variability, and the need for rigorous evaluation before deployment.
+Before CMU, I spent three years at [Wadhwani AI](https://www.wadhwaniai.org/), a non-profit that builds AI for social good. I built and deployed deep learning models for chest X-ray screening that now serve millions of patients a year on [India's national digital diagnosis platform](https://collabdds.gov.in/). I did my B.Tech. in Computer Science at [IIIT Delhi](https://www.iiitd.ac.in/).
 
-I completed my undergraduate studies at Indraprastha Institute of Information Technology Delhi in 2021. Outside of research and engineering, I enjoy strategy-heavy games and puzzles and have been active in chess, math, and poker communities at both CMU and IIITD.
+Outside work I like games of strategy: chess, poker, and the occasional math puzzle.

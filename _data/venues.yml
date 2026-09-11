@@ -1,9 +1,14 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Links and colors for the venue badges next to publications (keys match `abbr` in papers.bib).
+"ICRA":
+  url: https://2026.ieee-icra.org/
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ISBI":
+  url: https://biomedicalimaging.org/2025/
 
-"arXiv":
-  url: https://doi.org/10.48550/arxiv.2211.12931
+"RE":
+  url: https://conf.researchr.org/home/RE-2024
+
+"MedIA":
+  url: https://www.sciencedirect.com/journal/medical-image-analysis
+
+"ML4H": {} # ml4h.cc currently fails TLS, so no link for now
