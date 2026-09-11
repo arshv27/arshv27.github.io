@@ -21,6 +21,7 @@ and configuration.
 | `_data/venues.yml`, `_data/coauthors.yml` | Links for venue badges and co-author names |
 | `_config.yml` | Site settings; most al-folio features are switched off here |
 | `resume/index.html` | Redirect to `/cv/` (kept for old links) |
+| `requirements.txt` | Python packages the deploy workflow installs (al-folio stock; required for its pip cache step) |
 
 ## Updating
 
